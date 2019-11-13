@@ -1,15 +1,22 @@
 html {
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Roboto Condensed, sans-serif;
   line-height: 1.5;
+  justify-content: center;
+  align-items: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h2 {
-font-size: 3rem;
+  font-family: Roboto Condensed;
+  font-size: 3rem;
 }
 
 h3 {
@@ -18,22 +25,26 @@ h3 {
 
 .banner {
   display: flex;
-  position: absolute;
+  position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .img-flex {
   /* float: left; */
+  width: 100%;
   display: flex;
   position: absolute;
-  left: 20%;
+  left: 25%;
+  top: 20%;
 }
 
-.text {
-  float: right;
-  position: relative;
-  display: inline;
-  bottom: 50%;
+.banner-content {
+  /* float: right; */
+  position: absolute;
+  display: inline-block;
+  top: 20%;
+  left: 50%;
 }
 
 a {
