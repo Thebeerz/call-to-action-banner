@@ -27,14 +27,13 @@ h3 {
   display: flex;
   position: absolute;
   left: 20%;
-  top: 30%;
 }
 
 .text {
   float: right;
   position: relative;
   display: inline-block;
-  top: 50%;
+  bottom: 50%;
 }
 
 a {
