@@ -55,9 +55,9 @@ body {
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
-  font-weight: bolder;
+  font-weight: bold;
   margin: 0;
   line-height: 1.2;
 }
@@ -86,7 +86,7 @@ a {
 .btn-big {
   text-align: center;
   display: inline-block;
-  padding: .5em;
+  padding: .5em 1em;
   font-size: 1.5rem;
 }
 
